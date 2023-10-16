@@ -33,7 +33,8 @@ Components that need to interact with a state should extend `StatefulLitElement`
 
 ```typescript
 // counter-component.ts
-import { html, customElement } from "lit";
+import { html } from "lit";
+import { customElement } from "lit/decorators.js";
 import { counterState } from "./counterState";
 import { StatefulLitElement } from "statelit";
 
@@ -69,7 +70,8 @@ class CounterComponent extends StatefulLitElement<typeof counterState.state> {
 
 ```typescript
 // counter-display.ts
-import { html, customElement } from "lit";
+import { html } from "lit";
+import { customElement } from "lit/decorators.js";
 import { counterState } from "./counterState";
 import { StatefulLitElement } from "statelit";
 
