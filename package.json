@@ -1,0 +1,30 @@
+{
+  "name": "statelit",
+  "version": "0.1.0",
+  "description": "State management library for Lit, enabling easy state sharing across components.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RednibCoding/StateLit.git"
+  },
+  "keywords": [
+    "Lit",
+    "LitElement",
+    "State",
+    "Management",
+    "Reactive"
+  ],
+  "author": "Michael Binder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RednibCoding/StateLit/issues"
+  },
+  "homepage": "https://github.com/RednibCoding/StateLit#readme",
+  "dependencies": {
+    "lit": "^3.0.0"
+  }
+}
