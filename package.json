@@ -1,6 +1,6 @@
 {
   "name": "statelit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "State management library for Lit, enabling easy state sharing across components.",
   "main": "dist/index.js",
   "scripts": {
