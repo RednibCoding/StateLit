@@ -6,6 +6,14 @@ StateLit is a lightweight state management library designed for LitElement-based
 
 - **State Sharing Across Components:** State can be shared across multiple components effortlessly. When one component updates the state, all other components using that state will re-render to reflect the changes.
 
+## Dependencies
+
+- StateLit depends on Lit ^3.0.0
+
+## Installation
+
+npm i statelit
+
 ## Getting Started
 
 Start by defining a state class for each distinct part of your application's state. Each state class should extend `LitState` and initialize its state in the constructor.
